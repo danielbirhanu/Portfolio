@@ -1,4 +1,3 @@
-import image from '../images/image2.png'
 
 const Hero = () => {
   return (

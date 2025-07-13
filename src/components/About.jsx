@@ -1,5 +1,3 @@
-import image from "../images/image2.png";
-
 const About = () => {
   return (
     <section id="about" className="about">
