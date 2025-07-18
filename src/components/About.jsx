@@ -7,7 +7,7 @@ const About = () => {
           <div className="about-text">
             <h3>Who am I?</h3>
             <p>
-              I'm a passionate fullstack developer with 3 years of experience
+              I'm a passionate fullstack developer with more than 2 years of experience
               creating responsive and user-friendly websites. I specialize in
               React.js and modern JavaScript frameworks.
             </p>

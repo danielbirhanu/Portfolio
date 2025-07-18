@@ -23,9 +23,9 @@ const Footer = () => {
           <div className="footer-social">
             <h3>Follow Me</h3>
             <div className="social-links">
-              <a href="#"><FaGithub /></a>
-              <a href="#"><FaLinkedin /></a>
-              <a href="#"><FaTwitter /></a>
+              <a href="https://github.com/danielbirhanu" target='_blank'><FaGithub /></a>
+              <a href="https://www.linkedin.com/in/danielbirhanu/" target='_blank'><FaLinkedin /></a>
+              <a href="https://x.com/Daniel_birhanu1" target='_blank'><FaTwitter /></a>
             </div>
           </div>
         </div>

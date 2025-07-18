@@ -9,7 +9,7 @@ const Skills = () => {
     { name: 'JavaScript', icon: <FaJs />, level: 'Advanced' },
     { name: 'React', icon: <FaReact />, level: 'Advanced' },
     { name: 'TypeScript', icon: <SiTypescript />, level: 'Intermediate' },
-    { name: 'Node.js', icon: <FaNode />, level: 'Intermediate' },
+    { name: 'Node.js', icon: <FaNode />, level: 'Advanced' },
     { name: 'Redux', icon: <SiRedux />, level: 'Intermediate' },
     { name: 'GraphQL', icon: <SiGraphql />, level: 'Basic' },
     { name: 'MongoDB', icon: <SiMongodb />, level: 'Advanced' },

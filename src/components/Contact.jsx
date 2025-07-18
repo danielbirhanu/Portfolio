@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaClock, FaPaperPlane, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import React, { useState } from "react";
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaEnvelope,
+  FaClock,
+  FaPaperPlane,
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+} from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -14,20 +23,20 @@ const Contact = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
+
     try {
       // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1500));
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      setSubmitStatus("success");
+      setFormData({ name: "", email: "", subject: "", message: "" });
     } catch (error) {
-      setSubmitStatus('error');
+      setSubmitStatus("error");
     } finally {
       setIsSubmitting(false);
       setTimeout(() => setSubmitStatus(null), 5000);
@@ -38,12 +47,12 @@ const Contact = () => {
     <section id="contact" className="contact-section">
       <div className="container">
         <h2 className="section-title">Get In Touch</h2>
-        
+
         <div className="contact-container">
           {/* Contact Information */}
           <div className="contact-info">
             <h3 className="contact-subtitle">Contact Information</h3>
-            
+
             <div className="info-items">
               <div className="info-item">
                 <div className="info-icon">
@@ -54,7 +63,7 @@ const Contact = () => {
                   <p>Addis Ababa, Ethiopia</p>
                 </div>
               </div>
-              
+
               <div className="info-item">
                 <div className="info-icon">
                   <FaEnvelope />
@@ -64,7 +73,7 @@ const Contact = () => {
                   <p>danielbirhant@gmail.com</p>
                 </div>
               </div>
-              
+
               <div className="info-item">
                 <div className="info-icon">
                   <FaPhone />
@@ -74,7 +83,7 @@ const Contact = () => {
                   <p>+251 95 435 5685</p>
                 </div>
               </div>
-              
+
               <div className="info-item">
                 <div className="info-icon">
                   <FaClock />
@@ -89,20 +98,33 @@ const Contact = () => {
             <div className="social-section">
               <h4>Follow Me</h4>
               <div className="social-links">
-                <a href="#" className="social-icon" id='social-icon'>
+                <a
+                  href="https://github.com/danielbirhanu"
+                  target="_blank"
+                  className="social-icon"
+                  id="social-icon"
+                >
                   <FaGithub />
                 </a>
-                <a href="#" className="social-icon" id='social-icon'>
+                <a
+                  href="https://www.linkedin.com/in/danielbirhanu/"
+                  target="_blank"
+                  className="social-icon"
+                  id="social-icon"
+                >
                   <FaLinkedin />
                 </a>
-                <a href="#" className="social-icon" id='social-icon'>
+                <a
+                  href="https://x.com/Daniel_birhanu1"
+                  target="_blank"
+                  className="social-icon"
+                  id="social-icon"
+                >
                   <FaTwitter />
                 </a>
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
     </section>
