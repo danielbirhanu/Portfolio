@@ -4,30 +4,30 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-commerce Website',
-      description: 'A full-featured online store with cart functionality and payment integration.',
+      title: 'Doctor-Patient Appointment Platform',
+      description: 'a web platform where patients can book doctor appointments and manage their profiles.',
       technologies: ['React', 'Node.js', 'MongoDB'],
       image: 'https://via.placeholder.com/300',
-      link: '#',
-      github: '#'
+      link: 'https://curalink.vercel.app/',
+      github: 'https://github.com/amxson/CURALINK'
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'A productivity application for organizing and tracking tasks.',
-      technologies: ['React', 'Firebase', 'Material UI'],
+      title: 'Book rating application',
+      description: 'A web application for users to rate and review books.',
+      technologies: ['React', 'Node.js', 'Cloudinary', 'MongoDB'],
       image: 'https://via.placeholder.com/300',
       link: '#',
-      github: '#'
+      github: 'https://github.com/danielbirhanu/Book-Hub'
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather information with interactive maps and forecasts.',
+      title: 'Blog Website',
+      description: 'A personal blog website to share articles and thoughts.',
       technologies: ['JavaScript', 'API Integration', 'CSS'],
       image: 'https://via.placeholder.com/300',
       link: '#',
-      github: '#'
+      github: 'https://github.com/amxson/Blog_Blast_V2'
     },
   ];
 
