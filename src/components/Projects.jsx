@@ -5,7 +5,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'Doctor-Patient Appointment Platform',
-      description: 'a web platform where patients can book doctor appointments and manage their profiles.',
+      description: 'A web platform where patients can book doctor appointments and manage their profiles.',
       technologies: ['React', 'Node.js', 'MongoDB'],
       image: 'https://via.placeholder.com/300',
       link: 'https://curalink.vercel.app/',
