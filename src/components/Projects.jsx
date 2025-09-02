@@ -1,24 +1,25 @@
-import React from 'react';
+import bookHub from '../images/bookHub.jpg'
+import curalink from '../images/curalink.jpg'
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'Doctor-Patient Appointment Platform',
-      description: 'A web platform where patients can book doctor appointments and manage their profiles.',
-      technologies: ['React', 'Node.js', 'MongoDB'],
-      image: 'https://via.placeholder.com/300',
-      link: 'https://curalink.vercel.app/',
-      github: 'https://github.com/amxson/CURALINK'
+      title: 'Book-hub',
+      description: 'A web application for users to rate and review books.',
+      technologies: ['React', 'Node.js', 'Multer', 'MongoDB'],
+      image: bookHub,
+      link: '#',
+      github: 'https://github.com/danielbirhanu/Book-Hub'
     },
     {
       id: 2,
-      title: 'Book rating application',
-      description: 'A web application for users to rate and review books.',
-      technologies: ['React', 'Node.js', 'Cloudinary', 'MongoDB'],
-      image: 'https://via.placeholder.com/300',
-      link: '#',
-      github: 'https://github.com/danielbirhanu/Book-Hub'
+      title: 'Curalink',
+      description: 'A web platform where patients can book doctor appointments and manage their profiles.',
+      technologies: ['TypeScript', 'React', 'Node.js', 'MongoDB'],
+      image: curalink,
+      link: 'https://curalink.vercel.app/',
+      github: 'https://github.com/amxson/CURALINK'
     },
     {
       id: 3,
