@@ -1,5 +1,5 @@
 import bookHub from '../images/bookHub.jpg'
-import curalink from '../images/Curalink.jpg'
+import curalink from '../images/curalink.jpg'
 
 const Projects = () => {
   const projects = [
